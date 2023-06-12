@@ -1,0 +1,56 @@
+/*edit*/
+body {
+	background-color: black;
+}
+h1 {
+	color: white;
+	font-size: 45px;
+	text-shadow: 2px 1px 1px purple;
+}
+#b1, #b2, #b3, #b4, #b5, 
+#b6, #b7, #b8, #b9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 2px solid #6A076A;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+#b1:hover, #b2:hover, #b3:hover, #b4:hover, #b5:hover, 
+#b6:hover, #b7:hover, #b8:hover, #b9:hover {
+	background-color: grey;
+}
+#b1, #b2, #b3, #b4, #b5, 
+#b6, #b7, #b8, #b9 {
+	background-color: white;
+}
+#reset {
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border: 2px solid #6A076A;
+	border-radius: 4px;
+	background-color: #9E7FE2;
+	cursor: pointer;
+}
+#reset:hover {
+	width: 105px;
+	height: 45px;
+	background-color: #CB4B4D;
+	border: 3px solid #AA0002;
+	color: #5E0001;
+	font-size: 12pt;
+}
+#print {
+    color: pink;
+    font-size: 20px;
+}
+#main {
+        text-align: center;
+}
+#ins {
+	color: white;
+	text-shadow: 1px 1px 0px #FF007C, -1px -1px 0px #FF007C, -1px 1px 0 #FF007C, 1px -1px #FF007C;
+	font-size: 17px;
+}
